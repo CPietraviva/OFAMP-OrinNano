@@ -1,5 +1,6 @@
 services:
   timesfm-app:
+    build: .
     image: timesfm-ui
     container_name: timesfm-ui
     ports:
